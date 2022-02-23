@@ -1,0 +1,211 @@
+*{
+    margin: 0px auto;
+    box-sizing: border-box; /*investigar*/
+}
+
+.fondo{
+    background: #aedf67 url(../images/background.png) repeat-x;
+    background-size: contain;
+    width: 100%;
+    position: relative;
+    height: 100rem;
+    padding-top: 4rem;
+}
+
+.fondoContenido{
+    background: #fff;
+    width: 920px;
+    margin: 0px auto;
+    margin-top: 30px;
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado{
+    background: url(../images/banner.jpg) repeat-x;
+    height: 250px;
+    width: 880px;
+    font-size: 30px;
+}
+
+#titulo{
+    font-size: 60px;
+    color: green;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+.barraLinks{
+    width: 880px;
+    height: 35px;
+    display: flex;
+    background-color: #488000;
+}
+
+.barraLinks .principal{
+    color: #fff;
+    border-right: 1px solid #fff;
+    text-decoration: none;
+    text-align: justify;
+    padding:0px 10px 0px  10px;
+    padding-top:8px;
+    padding-bottom:5px;
+}
+
+.barraLinks a.cont{
+    border-right: 0px; 
+}
+
+.noticias{
+    float: left;
+    width: 200px;
+    text-align: justify;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+.noticias img{
+    float:left;
+}
+
+.noticias #subtitulo{
+    color: #488000;
+}
+
+p{
+    text-align: justify;
+    padding-bottom: 8px;
+}
+
+.text{
+    font-size: medium;
+    padding-top: 20px;
+}
+
+.relevantes{
+    padding-top: 30px;
+    clear: left;
+    float: left;
+    width: 200px;
+    margin-right: 10px;
+    padding-left: 20px;
+
+}
+
+.relevantes img{
+    float:left;
+}
+
+.articuloPrincipal{
+    padding-top: 10px;
+    clear: right;
+    padding-left: 2px;
+    width: 900px;
+    padding-right: 1%;
+}
+
+.visitCR{
+    height: 500px;
+}
+
+.visitCR h2{
+    color: #488000;
+}
+
+.visitCR #imgRana{
+    float: left;
+    margin-top: 0px;
+    width: 210px;
+    height: 250px;
+}
+
+.visitCR .articulo2{
+    padding-top: 150px;
+}
+
+.piePagina{
+    width: 880px;
+    height: 35px;
+    background-color: #488000;
+    text-align: center;
+}
+
+.piePagina .pie{
+    color: #fff;
+    border-right: 1px solid #fff;
+}
+
+@media only screen and (max-width: 720px) { /* For mobile phones: */
+    #encabezado {
+        width: 100%;
+        margin-bottom: 390%;
+        margin-left: 20%;
+        margin-right: 25%;
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 720px) { /* For mobile phones: */
+    #titulo {
+        font-size: large;
+        padding-top: 30%;
+    }
+}
+
+@media only screen and (max-width: 720px) { /* For mobile phones: */
+    .barraLinks{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 720px) { /* For mobile phones: */
+    .fondoContenido {
+        width: 35%;
+        float: none;
+        padding-left: 20%;
+    }
+}
+
+@media only screen and (max-width: 720px) { /* For mobile phones: */
+    .piePagina {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 720px) { /* For mobile phones: */
+    #imgRana {
+        width: 120px;
+        height: auto;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 720px) { /* For mobile phones: */
+    .noticias  {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 720px) { /* For mobile phones: */
+    .relevantes  {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 720px) { /* For mobile phones: */
+    .articuloPrincipal{
+        width: auto;
+        margin: 0;
+        font-size: x-small;
+        padding-right: 44%;
+    }
+}
+
+@media only screen and (max-width: 720px) { /* For mobile phones: */
+    .visitCR{
+        width: 140px;
+        padding-left: 0%;
+        padding-right: 100%;
+    }
+}
